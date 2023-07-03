@@ -2,6 +2,36 @@
 
 **Software listed here does not meet the [Free Software](https://en.wikipedia.org/wiki/Free_software) definition**. It implements their own licensing with restrictions and grants which you must check on each case. Restrictions may include limits on allowed use of the software, access to the source code, modification and further redistribution. This software can therefore contain anti user-freedom features, such as but not limited to: backdoors, user lock-in, sending personal data to a third party.
 
+--------------------
+
+## Table of contents
+
+- [Software](#software)
+  - [Automation](#automation)
+  - [Communication - Custom Communication Systems](#communication---custom-communication-systems)
+  - [Content Management Systems (CMS)](#content-management-systems-cms)
+  - [Communication - SIP](#communication---sip)
+  - [Document Management - E-books](#document-management---e-books)
+  - [E-commerce](#e-commerce)
+  - [File Transfer & Synchronization](#file-transfer--synchronization)
+  - [Games](#games)
+  - [Internet of Things (IoT)](#internet-of-things-iot)
+  - [Knowledge Management Tools](#knowledge-management-tools)
+  - [Maps and Global Positioning System (GPS)](#maps-and-global-positioning-system-gps)
+  - [Media Streaming - Video Streaming](#media-streaming---video-streaming)
+  - [Money, Budgeting & Management](#money-budgeting--management)
+  - [Photo and Video Galleries](#photo-and-video-galleries)
+  - [Search Engines](#search-engines)
+  - [Self-hosting Solutions](#self-hosting-solutions)
+  - [Software Development - Project Management](#software-development---project-management)
+  - [Software Development - Testing](#software-development---testing)
+  - [Ticketing](#ticketing)
+  - [Time Tracking](#time-tracking)
+  - [Miscellaneous](#miscellaneous)
+- [List of Licenses](#list-of-licenses)
+
+--------------------
+
 ## Software
 
 
@@ -12,20 +42,22 @@
 
 ### Communication - Custom Communication Systems
 
-- [Dialog](https://dlg.im) - Handy and feature-rich multi-device solution with native mobile clients, SIP integration, chatbots, 3rd-party integrations. It brings communication efficiency without sacrificing privacy. Works in closed circuit, encrypts push notifications. ([Demo](https://dlg.im/en/download/)) `⊘ Proprietary` `Scala/Go`
+- [Chaskiq](https://chaskiq.io) - Full featured livechat, helpcenter and CRM as an alternative to Intercom & Drift, Crisp and others. ([Source Code](https://github.com/chaskiq/chaskiq)) `AGPL-3.0/Commons-Clause` `Ruby`
 - [Groupboard](https://www.groupboard.com/products/) - Online whiteboard, audio/video conferencing, screen sharing, shared code editing and optional session recording/playback. `⊘ Proprietary` `Unknown`
 - [PrivMX WebMail](https://privmx.com) - Alternative private mail system - web-based, end-to-end encrypted by design, self-hosted, decentralized, uses independent PKI. Easy to install and administrate, freeware, open-source. `⊘ Proprietary` `PHP`
 - [WorkAdventure](https://workadventu.re) - Virtual office / virtual conference application presented as a 16-bit RPG video game. ([Demo](https://play.staging.workadventu.re/@/tcm/workadventure/wa-village), [Source Code](https://github.com/thecodingmachine/workadventure/)) `AGPL-3.0/Commons-Clause` `Docker`
 
-## Knowledge Management Tools
-
-- [Wiznote](https://www.wiz.cn/docker) - Manage your knowledge in documents with folders, markdown, full text search and webpage collection support. ([Demo](https://www.wiz.cn/), [Clients](https://www.wiz.cn/download.html)) `⊘ Proprietary` `Docker`
 
 ### Content Management Systems (CMS)
 
 - [CraftCMS](https://craftcms.com/) - Content-first CMS that aims to make life enjoyable for developers and content managers alike. ([Demo](https://craftcms.com/demo), [Source Code](https://github.com/craftcms/cms)) `⊘ Proprietary` `PHP`
 - [Kirby](https://getkirby.com/) - File-based CMS. Easy to setup. Easy to use. Flexible as hell. ([Source Code](https://github.com/getkirby/kirby)) `⊘ Proprietary` `PHP`
 - [october](https://octobercms.com/) - Self-hosted CMS platform based on the Laravel PHP Framework. ([Source Code](https://github.com/octobercms/october)) `⊘ Proprietary` `PHP`
+
+
+### Communication - SIP
+
+- [3CX](https://www.3cx.com/pbx/) - Full-featured PABX system, with call queues, built-in web conferencing, live chat and social media messaging all on one system. `⊘ Proprietary` `Unknown`
 
 
 ### Document Management - E-books
@@ -56,9 +88,9 @@
 - [Atman IoT](https://atman-iot.com) - Self hosted IoT gateway focused on IoT solution rapid prototyping, packaged as stand alone docker container, promising to help you build your IoT solution in a week. ([Demo](https://atman-iot.com/signup-redirect/)) `⊘ Proprietary` `Nodejs`
 
 
-### Communication - SIP
+### Knowledge Management Tools
 
-- [3CX](https://www.3cx.com/pbx/) - Full-featured PABX system, with call queues, built-in web conferencing, live chat and social media messaging all on one system. `⊘ Proprietary` `Unknown`
+- [Wiznote](https://www.wiz.cn/docker) - Manage your knowledge in documents with folders, markdown, full text search and webpage collection support. ([Demo](https://www.wiz.cn/), [Clients](https://www.wiz.cn/download.html)) `⊘ Proprietary` `Docker`
 
 
 ### Maps and Global Positioning System (GPS)
@@ -89,6 +121,10 @@
 - [Reservo](https://reservo.co) - Scalable image hosting script with support for CDNs, paid account upgrades, advertising spots and drag & drop upload. ([Demo](https://demo.reservo.co/)) `⊘ Proprietary` `PHP`
 - [Single File PHP Gallery](http://sye.dk/sfpg/) - Web gallery in one single PHP file. `⊘ Proprietary` `PHP`
 
+### Proxy
+
+- [Cosmos](https://cosmos-cloud.io/) - Cosmos is a self-hosted platform for running server applications securely and with built-in privacy features. It acts as a secure gateway to your application, as well as a server manager. ([Source Code](https://github.com/azukaar/cosmos-Server)) `⊘ Proprietary` `Docker/Go`
+
 ### Self-hosting Solutions
 
 - [Axigen](https://www.axigen.com/mail-server/free/) - Turnkey messaging solution for small & micro businesses, integration projects or test environments. `⊘ Proprietary` `Unknown`
@@ -98,6 +134,7 @@
 - [hMailServer](https://www.hmailserver.com) - Open-source e-mail server for Microsoft Windows. ([Source Code](https://github.com/hmailserver/hmailserver)) `⊘ Proprietary` `C++`
 - [Poste.io](https://poste.io) - Full-featured solution for your Email server. Native implementation of last anti-SPAM methods, webmail and easy administration included. Free tier available. ([Demo](https://poste.io/demo)) `⊘ Proprietary` `Unknown`
 - [Umbrel](https://umbrel.com/) - A beautiful personal server OS for self-hosting. Install on a Raspberry Pi 4 or Ubuntu/Debian. ([Source Code](https://github.com/getumbrel/umbrel)) `⊘ Proprietary` `Nodejs/Docker`
+- [Unraid](https://www.unraid.net) `⚠` - Linux-based operating system designed to run on home media server setups. `⊘ Proprietary` `Other`
 
 
 ### Search Engines
@@ -136,7 +173,7 @@
 
 ### Time Tracking
 
-- [Anuko](https://www.anuko.com/time-tracker/index.htm) - Simple time and project tracking on a self-hosted basis. ([Demo](https://timetracker.anuko.com/), [Source Code](https://github.com/anuko/timetracker)) `SSPL-1.0` `PHP`
+- [Anuko](https://github.com/anuko/timetracker) - Simple time and project tracking on a self-hosted basis. `SSPL-1.0` `PHP`
 - [Virtual TimeClock](https://www.redcort.com/timeclock) - Powerful, easy-to-use time tracking software. ([Demo](https://www.redcort.com/timeclock/free-timeclock-software-trial)) `⊘ Proprietary` `Unknown`
 
 
